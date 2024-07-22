@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable */
+
 export default function appendToEachArrayValue(array, appendString) {
     for (const [idx] of array.entries()) {
         const value = array[idx];
