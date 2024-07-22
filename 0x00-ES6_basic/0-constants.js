@@ -12,3 +12,6 @@ export function taskNext() {
     combination += getLast();
     return combination;
 }
+
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
