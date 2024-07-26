@@ -1,3 +1,4 @@
+
 import Car from './10-car';
 
 export default class EVCar extends Car {
@@ -14,6 +15,7 @@ export default class EVCar extends Car {
     this._range = value;
   }
 
+  /*eslint-disable*/
   cloneCar() {
     return new Car();
   }
